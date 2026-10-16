@@ -1,0 +1,22 @@
+{
+  "name": "message-style",
+  "version": "0.3.0",
+  "description": "Your prompts in the terminal as opencode-style panels: right-aligned text with a blue stripe on the right",
+  "author": {
+    "name": "Ilja"
+  },
+  "userConfig": {
+    "bubbleColor": {
+      "type": "string",
+      "title": "Prompt panel colour",
+      "description": "Hex colour behind your prompts",
+      "default": "#1e1e1e"
+    },
+    "stripeColor": {
+      "type": "string",
+      "title": "Stripe colour",
+      "description": "Hex colour of the stripe on the right of your prompts",
+      "default": "#5c9cf5"
+    }
+  }
+}

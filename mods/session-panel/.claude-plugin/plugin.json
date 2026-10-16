@@ -1,0 +1,12 @@
+{
+  "name": "session-panel",
+  "version": "0.2.0",
+  "description": "Side panel: live 5-hour and weekly limits, context breakdown, model and effort switchers, skills, connector status, location, version and mod toggles",
+  "author": {
+    "name": "Ilja"
+  },
+  "types": "./types/index.d.ts",
+  "dependencies": [
+    "mod-manager"
+  ]
+}

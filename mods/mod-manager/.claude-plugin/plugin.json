@@ -1,0 +1,7 @@
+{
+  "name": "mod-manager",
+  "version": "0.1.0",
+  "description": "Lists installed plugins and mods with enable/disable toggles (/mods)",
+  "author": { "name": "Ilja" },
+  "types": "./types/index.d.ts"
+}

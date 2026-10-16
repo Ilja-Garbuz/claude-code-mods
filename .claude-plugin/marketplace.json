@@ -1,0 +1,24 @@
+{
+  "name": "ilja-mods",
+  "owner": {
+    "name": "Ilja"
+  },
+  "description": "Claude Code terminal mods: a session side panel, opencode-style prompt panels and a mod manager",
+  "plugins": [
+    {
+      "name": "session-panel",
+      "source": "./mods/session-panel",
+      "description": "Side panel: live 5-hour and weekly limits, context breakdown, model and effort switchers, skills, connector status, location, version and mod toggles"
+    },
+    {
+      "name": "message-style",
+      "source": "./mods/message-style",
+      "description": "Your prompts as opencode-style panels: right-aligned text with a thin blue stripe"
+    },
+    {
+      "name": "mod-manager",
+      "source": "./mods/mod-manager",
+      "description": "Lists installed plugins and mods with enable/disable toggles that apply without a restart"
+    }
+  ]
+}
