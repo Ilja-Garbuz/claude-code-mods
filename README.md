@@ -29,6 +29,8 @@ claude plugin install message-style@ilja-mods --scope user
 claude plugin install mod-manager@ilja-mods --scope user
 ```
 
+session-panel brings mod-manager along, so installing it alone also works.
+
 Start a new session (or run `/reload-plugins`) and the panel appears once the terminal is wide enough (144 columns in the fullscreen layout). Anywhere else, type `/panel`.
 
 To update later: `claude plugin marketplace update ilja-mods`, then `/reload-plugins`.
