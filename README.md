@@ -10,20 +10,20 @@ Three mods for the Claude Code terminal (CLI). Claude Desktop, VS Code and mobil
 
 ## Install
 
-You need Claude Code 2.1.300 or newer, and read access to this repository.
+You need Claude Code 2.1.300 or newer, and read access to this private repository: ask Ilja to add you. If Git Credential Manager holds several GitHub accounts, it may ask which one to use; pick the one with access.
 
 In a Claude Code terminal session, run each of these, answering `y` to add the marketplace and choosing the user scope:
 
 ```
-/plugin install session-panel --marketplace lALTAIRl/claude-code-mods
-/plugin install message-style --marketplace lALTAIRl/claude-code-mods
-/plugin install mod-manager --marketplace lALTAIRl/claude-code-mods
+/plugin install session-panel --marketplace Ilja-Garbuz/claude-code-mods
+/plugin install message-style --marketplace Ilja-Garbuz/claude-code-mods
+/plugin install mod-manager --marketplace Ilja-Garbuz/claude-code-mods
 ```
 
 Or from any shell (PowerShell, bash, fish):
 
 ```bash
-claude plugin marketplace add lALTAIRl/claude-code-mods
+claude plugin marketplace add Ilja-Garbuz/claude-code-mods
 claude plugin install session-panel@ilja-mods --scope user
 claude plugin install message-style@ilja-mods --scope user
 claude plugin install mod-manager@ilja-mods --scope user
