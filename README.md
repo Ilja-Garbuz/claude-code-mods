@@ -10,7 +10,7 @@ Three mods for the Claude Code terminal (CLI). Claude Desktop, VS Code and mobil
 
 ## Install
 
-You need Claude Code 2.1.300 or newer, and read access to this private repository: ask Ilja to add you. If Git Credential Manager holds several GitHub accounts, it may ask which one to use; pick the one with access.
+You need Claude Code 2.1.300 or newer.
 
 In a Claude Code terminal session, run each of these, answering `y` to add the marketplace and choosing the user scope:
 
